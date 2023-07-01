@@ -1,0 +1,41 @@
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("assets/pastry.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.maincontainer > div {
+  width: 270px;
+  height: 380px;
+  background-color: white;
+  margin: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.para {
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background-color: aqua; */
+  margin-top: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: cursive;
+}
+.subdiv {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.img-s {
+  margin-top: 20px;
+  margin-left: 15px !important;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+h3 {
+  margin-left: 90px;
+}

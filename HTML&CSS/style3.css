@@ -1,0 +1,14 @@
+h2 {
+  color: rgb(21, 238, 166);
+  font-size: 30px;
+}
+h1 {
+  color: rgb(12, 145, 100);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.heading {
+  color: rgb(12, 145, 100);
+  font-weight: bold;
+  font-size: 20px;
+}
+/* Using element selector and class selector changed the text color  */
