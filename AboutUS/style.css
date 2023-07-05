@@ -1,0 +1,362 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  color: #bc8cf2;
+  outline: none;
+  border: none;
+}
+body {
+  background-color: black;
+  height: 230vh;
+  color: white;
+}
+header {
+  position: fixed;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5%;
+  background: transparent;
+  z-index: 1;
+}
+header .navbar a {
+  color: white;
+  margin-left: 1.8rem;
+  font-size: 1.2rem;
+}
+nav {
+  display: block;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+  height: 5px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: black; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #bc8cf2; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid black; /* creates padding around scroll thumb */
+  height: 80px;
+}
+.home {
+  padding: 0rem 5%;
+}
+.home .maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.home .maincontainer h1 {
+  color: white;
+  font-size: 4rem;
+}
+.home .maincontainer h1 span {
+  color: #bc8cf2;
+}
+.btn {
+  color: #bc8cf2;
+  display: inline-block;
+  padding: 15px 10px;
+  border: 3px solid #bc8cf2;
+  font-size: 1.8rem;
+}
+p {
+  padding-bottom: 10px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.img {
+  border-radius: 50%;
+}
+#phone {
+  color: #bc8cf2;
+}
+
+.box-container .item1 .details p {
+  color: #bc8cf2;
+  font-size: 20px;
+}
+.box-container .item1 .details p span {
+  color: #ffff;
+}
+
+.box-container {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5px;
+  padding: 20px 20px 5px 20px;
+}
+/* .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.contact {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactinfo {
+  /* border: 2px solid blue; */
+  padding: 50px;
+}
+.contactform {
+  /* border: 2px solid yellow; */
+  width: 700px;
+  height: 400px;
+  padding: 30px;
+}
+.box {
+  width: 90%;
+  margin: 8px 0;
+  height: 30px;
+  color: #dfdfde;
+  background: #222;
+
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.contactform textarea {
+  height: 5rem;
+  resize: none;
+}
+.box:focus {
+  border: 2px solid white;
+}
+
+.btnsend {
+  color: #bc8cf2;
+  display: inline-block;
+  padding: 15px 10px;
+  border: 3px solid #bc8cf2;
+  font-size: 1rem;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.aboutcontainer {
+  display: flex;
+  flex-direction: row;
+}
+.about .left {
+  /* border: 3px solid red; */
+  width: 400px;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.about .right {
+  border: 3px solid yellow;
+  width: 900px;
+  height: 500px;
+}
+.left img {
+  width: 300px;
+  height: 400px;
+  border: 10px solid #bc8cf2;
+}
+.skillcontainer {
+  width: 95%;
+  height: 300px;
+  /* border: 3px solid white; */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.skillitem {
+  width: 100%;
+  height: 280px;
+  /* border: 3px solid purple; */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.skillitemleft {
+  width: 50%;
+  height: 220px;
+  /* border: 3px solid blue; */
+  padding: 10px;
+}
+.skillitemright {
+  width: 50%;
+  height: 240px;
+  /* border: 3px solid blue; */
+  padding: 10px;
+}
+.skillitem .skillitemleft .progress-bar {
+  width: 100%;
+  background: #222;
+  height: 10px;
+  border-radius: 5px;
+}
+.skillitem .skillitemleft .progressbox:nth-child(1) .progress-bar span {
+  display: block;
+  width: 95%;
+  background: #bc8cf2;
+  border-radius: 5px;
+  height: 100%;
+}
+.skillitem .skillitemleft .progressbox:nth-child(2) .progress-bar span {
+  display: block;
+  width: 75%;
+  background: #bc8cf2;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.skillitem .skillitemleft .progressbox:nth-child(3) .progress-bar span {
+  display: block;
+  width: 90%;
+  background: #bc8cf2;
+  border-radius: 5px;
+  height: 100%;
+}
+.skillitem .skillitemleft .progressbox {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.skillitem .skillitemright .progress-bar {
+  width: 100%;
+  background: #222;
+  height: 10px;
+  border-radius: 5px;
+}
+.skillitem .skillitemright .progressbox:nth-child(1) .progress-bar span {
+  display: block;
+  width: 95%;
+  background: #bc8cf2;
+  border-radius: 5px;
+  height: 100%;
+}
+.skillitem .skillitemright .progressbox:nth-child(2) .progress-bar span {
+  display: block;
+  width: 75%;
+  background: #bc8cf2;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.skillitem .skillitemright .progressbox:nth-child(3) .progress-bar span {
+  display: block;
+  width: 90%;
+  background: #bc8cf2;
+  border-radius: 5px;
+  height: 100%;
+}
+.skillitem .skillitemright .progressbox {
+  margin: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.skillitem .progressbox h2 {
+  display: flex;
+  justify-content: space-between;
+}
+.skillitem .progressbox span {
+  color: white;
+  letter-spacing: 1px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+footer {
+  background: #bc8cf2;
+  width: 100%;
+  position: relative;
+  height: 100px;
+  bottom: 0;
+}
+
+.qualification {
+  width: 95%;
+  height: 600px;
+  border: 3px solid #bc8cf2;
+  position: relative;
+  left: 50px;
+}
+.qualificationbox {
+  display: flex;
+  flex-direction: row;
+}
+.qualificationbox .education {
+  width: 47.5%;
+  height: 500px;
+  border: 3px solid red;
+  margin-left: 30px;
+  padding: 30px;
+  padding-top: 50px;
+}
+.qualificationbox .experience {
+  width: 47.5%;
+  height: 500px;
+  border: 3px solid red;
+}
+.itemborder {
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #bc8cf2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 45px;
+  left: 40px;
+}
+
+.item {
+  border-left: 3px solid #bc8cf2;
+  /* position: absolute;
+  left: 70px;
+  height: 80px; */
+  height: 120px;
+}
+.education .item .content {
+  height: 200px;
+  width: 280px;
+  border: 3px solid white;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  padding: 10px;
+}
+.education .item .content span {
+  border: 1px solid #222;
+  background: #222;
+  color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+.education .item .content h3 {
+  margin-top: 10px;
+  padding: 5px;
+}

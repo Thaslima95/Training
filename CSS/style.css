@@ -1,0 +1,33 @@
+.section1 {
+  max-width: 1800px;
+  min-height: 547px;
+  background-color: #efe2d5;
+}
+.parent1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 40px;
+}
+.part1 {
+  background-color: aqua;
+  width: 500px;
+  height: 450px;
+  padding: 20px;
+  margin: 30px;
+}
+.parent2 {
+  animation: fadeInAnimation ease 10s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
